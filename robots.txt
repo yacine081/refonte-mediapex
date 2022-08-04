@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /templates/
+
+User-agent: *
+Disallow: /templates
+
+User-agent: *
+Disallow: /portfolio/
+
+User-agent: *
+Disallow: /portfolio
+
+User-agent: *
+Disallow: /projeqtor/
+
+User-agent: *
+Disallow: /projeqtor
+
+User-agent: *
+Disallow: /newsletter/
+
+User-agent: *
+Disallow: /newsletter
+
+User-agent: *
+Disallow: /projets/
+
+User-agent: *
+Disallow: /projets

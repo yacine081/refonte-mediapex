@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+Options +MultiViews
+RewriteEngine On
+RewriteRule ^(.*)/$ $1.php [QSA,L]
+RewriteRule ^accueil$ index.php [L] 
+# RewriteRule ^references-client-([a-z0-9-]+)$  references-client.php?client=$1  [L] 
+RewriteRule ^references-client-([a-z0-9-]+)-([a-z]+)$  references-client.php?client=$1&langue=$2  [L] 
+
+ErrorDocument 404 https://mediapex.net/accueil
